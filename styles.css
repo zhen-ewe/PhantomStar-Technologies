@@ -39,6 +39,11 @@ nav a:hover {
     color: #6a1b9a;
 }
 
+main {
+    margin-top: 80px; /* 避免被固定的header遮擋 */
+    padding-bottom: 60px; /* 為footer預留空間 */
+}
+
 .hero {
     background: #6a1b9a;
     color: #fff;
@@ -144,6 +149,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 1000;
 }
 
 @keyframes fadeIn {
