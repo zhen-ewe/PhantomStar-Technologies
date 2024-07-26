@@ -54,10 +54,10 @@
         </section>
         <section class="contact" id="contact">
             <h2>聯繫我們</h2>
-            <form>
-                <input type="text" placeholder="姓名" required>
-                <input type="email" placeholder="郵箱" required>
-                <textarea placeholder="訊息" required></textarea>
+            <form action="https://your-php-server.com/contact.php" method="post">
+                <input type="text" name="name" placeholder="姓名" required>
+                <input type="email" name="email" placeholder="郵箱" required>
+                <textarea name="message" placeholder="訊息" required></textarea>
                 <button type="submit">發送</button>
             </form>
         </section>
